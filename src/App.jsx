@@ -45,9 +45,11 @@ export class App extends Component {
       
     }));
     
-    this.state.fName = '';
-    this.state.department = '';
-    this.state.rating = '';
+    this.setState({
+      fName:'',
+      department:'',
+      rating:''
+    })
   }
   
   render() {
